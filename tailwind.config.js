@@ -22,7 +22,11 @@ module.exports = {
         950: "#161413",
       },
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'milky-way': "url('/public/milky-way.png')",
+      }
+    },
   },
   plugins: [require("@tailwindcss/typography")],
 };
