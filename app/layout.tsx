@@ -19,7 +19,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <body
-        className={`antialiased min-h-screen bg-[url('../public/milky-way-inverse.png')] bg-fixed bg-no-repeat bg-cover dark:text-timber dark:bg-[url('../public/milky-way.png')] text-slate-900 dark:text-slate-50 ${inter.className}`}
+        className={`antialiased min-h-screen bg-[url('../public/milky-way-inverse.jpg')] bg-fixed bg-no-repeat bg-cover dark:text-timber dark:bg-[url('../public/milky-way.jpg')] text-slate-900 dark:text-slate-50 ${inter.className}`}
       >
         <ThemeProvider attribute="class" defaultTheme="dark">
           <div className="max-w-7xl mx-auto px-10">
